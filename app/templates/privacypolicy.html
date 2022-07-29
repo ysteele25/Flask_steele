@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block body %} 
+<body>
+  <header class="container-fluid">
+    <div class="container" id="nav-container">
+        <!-- add this class -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
+            <a class="navbar-brand" href="/">
+                <img src="{{ url_for('static', filename='img/SSLogo.png')}}" alt="STEELE STAFFING™">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                    <a class="nav-link active" href="/">HOME </span> </a>
+                    </li>
+                </ul> 
+            </div>
+        </nav>
+    </div>
+</header>
+  <main>
+    <div class="container">
+        <br>
+        <div class="col-md-12">
+          <h2 class="main-title">Privacy Policy</h2>
+        </div>
+        <p>We believe that you should know how the information we may receive from you is used, disclosed, and protected. We have created this policy statement (the "Policy") to explain our privacy practices.
+            <br> <br>
+            We collect information by receiving resumes and related employment information from individuals who want us to assist them in finding employment opportunities. Thus, any information you submit to us may be distributed to a wide range of potential employers and others who may assist you in finding employment. Therefore, by submitting information to us, you are agreeing that any and all information you submit may be shared with third parties at our discretion.
+            <br> <br>
+            Our normal procedure is to take resumes and related information, remove from it personal identification information such as your name and address, and submit the remaining information to persons or entities who we believe may be interested in hiring you or assisting in your employment search. If a potential employer indicates a specific interest in your resume, at that time we may provide that employer your personal information, including your name and address.
+            <br> <br>
+            At no time will we ask for your social security number or credit card information, and if any such information is for some reason provided on your resume, we will attempt to remove it before sending your resume to the persons and entities described above. However, if you do not want specific information disclosed to any third party by us, you should not put that information on your resume or the other information you send to us, since we make no promises or warranties of any kind that we will always be able to "strip" specific data or information that should not be transferred to third parties.
+            <br> <br>
+            In addition to using your information to find employment opportunities for you, we may use information about who you are, where and when you browse on the Web, where your wireless device is located, and how you use our network to provide you better service, improve our website, and assist us in determining marketing strategy for our products and services. However, this information will be used only by us and/or consultants we hire for these purposes and will not be provided to others for their own commercial purposes.
+            <br> <br>
+            In order to collect this information about you, we make use of "Cookies" and "Web Beacons" that collect information when you enter our website. Cookies are files stored on your computer that contain information you previously provided while on the website. Cookies make subsequent visits faster and more efficient, because our website can access these files to retrieve the information you previously provided, so you do not have to provide it again. In addition, certain information in Cookies will be collected by Google Analytics to provide us information about your website usage. Furthermore, we will make use of "Web Beacons", which are "gif" files that, in turn, allow our website provider and us to collect statistical information about the general usage of our website. However, none of the information we collect via Cookies or Web Beacons is provided to any third party for marketing or sales purposes. Moreover, you can limit your "exposure" to Cookies and Web Beacons by a) using your internet browser settings to limit or block Cookies and Web Beacons, and/or b) deleting Cookies after leaving our website. However, be advised that these actions might make using our website more difficult for you.
+            <br> <br>
+            At no time will we ever sell or disclose your personal information except as otherwise provided in this Policy. In particular, we will not sell or disclose your personal information to third parties for their own marketing efforts.
+            <br> <br>
+            We and/or our consultants may release personal information you provide to us, as well as information obtained via Cookies or Web Beacons when such release is appropriate to comply with the law or in good faith reliance on legal process (e.g., court orders, subpoenas, etc.); enforce or apply our customer agreements; initiate, render, bill, and collect for services; protect our rights or property, or protect users of those services and other carriers from fraudulent, abusive, or unlawful use of, or subscription to, such services; facilitate or verify the appropriate calculation of taxes, fees, or other obligations due to a local, state, or federal government; or if we reasonably believe that an emergency involving immediate danger of death or serious physical injury to any person requires disclosure of communications, or justifies disclosure of records, to a governmental entity without delay. This Policy applies to individuals who use our services and products in the United States who are over the age of 18. Since we collect and disseminate information from our offices in Illinois, collection, use and protection of information will be governed by the laws of the State of Illinois and the United States.
+            <br> <br>
+            By submitting information to us, you are agreeing that at no time will we, our owners, directors, officers, employees, customers or agents, be held liable for any improper or incorrect use of the information except by us. We do not make any representations or warranties of any kind about the potential employers and others identified in this Policy as potentially receiving your information, and cannot be held responsible for how they, in turn, use your information. We make no representations or warranties about your likelihood of success in finding employment via this website or remaining employed once you have accepted a position. We cannot be held responsible in any way for any actions or inactions on the part of an employer found by you via this website that may be deemed illegal or inappropriate.
+            <br> <br>
+            We take reasonable steps to maintain the security of the information we store that is received via this website, and to maintain control over the information you provide to us as may be required by particular laws or regulations but cannot guarantee that information you provide might be subject to copying or disclosure by malevolent third parties.
+            <br> <br>
+            If at any time you wish to change or remove information from our database which you previously submitted, you should contact us via email to info@steelestaffing.com. We will endeavor to make sure that potential employers receive the most up to date information you have provided us. However, we can make no promises or warranties that information you submitted will not have been disclosed to third parties already, and we may not be able to recall that information from those third parties once submitted.
+            <br> <br>
+            If you have any questions, comments, or concerns about this Policy, please contact us at info@steelestaffing.com Please DO NOT submit any resume or other information about you until you are satisfied that you understand this policy and agree to it.</p>
+            <br> <br>
+         
+          <button class="main-btn" id="call-btn" onclick="window.location='/'">Home</button>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+        <div class="row">
+                  <div class="col-sm-4">
+                      <span class="fab fa-linkedin"></span>
+                      <a href="https://www.linkedin.com/in/yeda-steele-21711518">LinkedIn</a>
+                      <span></span>
+                  </div>
+                 
+                  <div class="col-sm-4">
+                      <p> Website by CLOUD RECRUITING™ USA</p>
+                  </div>
+              </div>
+          </div>
+      </footer>
+  
+    </body>
+   {% endblock %}

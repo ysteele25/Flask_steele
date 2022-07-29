@@ -1,0 +1,12 @@
+#virtual enviroment
+venv/ 
+
+#Flask
+.webassests-cache
+
+#Flask.Python Stack
+#Byte-compiled / optmized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+digitalOcean*
