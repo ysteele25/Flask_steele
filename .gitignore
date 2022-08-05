@@ -1,5 +1,5 @@
 #virtual enviroment
-flaskenv/ 
+.venv/ 
 
 #Flask
 .webassests-cache
