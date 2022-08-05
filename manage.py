@@ -1,7 +1,7 @@
 # manage.py
 #!/usr/bin/env python
 import os
-from flask_script import Manager, Server
+##from flask_script import Manager, Server
 from flask import current_app
 from flask_collect import Collect
 from app import create_app
