@@ -3,7 +3,7 @@
 import os
 ##from flask_script import Manager, Server
 from flask import current_app
-from flask_collect import Collect
+#from flask_collect import Collect
 from app import create_app
 
 class Config(object):
