@@ -1,6 +1,6 @@
 from flask import Flask, appcontext_popped, render_template
 from flask_navigation import Navigation
-from flask_collect import Collect
+#from flask_collect import Collect
 from flask_bootstrap import Bootstrap
 
 def create_app(config):
