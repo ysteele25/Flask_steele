@@ -1,4 +1,3 @@
-#app.py was replaced by --init__.py to be called from manage.py
 #kept both files and they have a small difference on create app
 
 from flask import Flask, appcontext_popped, render_template
