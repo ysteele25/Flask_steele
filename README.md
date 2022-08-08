@@ -1,2 +1,3 @@
-# Flask_steele1
+# Flask_steele
+
 Steele Staffing website developed in Flask Python
