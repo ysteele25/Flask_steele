@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ikqusaz8l2qy/public_html/Flasky
+    - /bin/cp -R Flasky $DEPLOYPATH
